@@ -8,25 +8,48 @@
   <Observable mode="btm" inOut>
       <h1>Hello world!</h1>
       </Observable>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
+     <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
       <Observable mode="btm" inOut>
         <p>animated: Start editing to see some magic happen :)</p>
       </Observable>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
-      <p>Start editing to see some magic happen :)</p>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
+      <Observable mode="btm" inOut>
+        <p>animated: Start editing to see some magic happen :)</p>
+      </Observable>
       <Observable mode="custom" inOut>
         <p class="custom-animation">
           animated: Start editing to see some magic happen :)

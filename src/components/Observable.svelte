@@ -5,13 +5,13 @@
   import {IntersectionTransitions} from '../classes/IntersectionTransitions'
 
   // props
-    export let mode = false
-    export let inOut = false
-    export let rootMargin = '80px 0px 0px 0px'
-    export let treshold = 0.35
-    export let trOffset = '30px'
-    export let trDelay = '0s'
-    export let trDuration = '0.4s'
+  export let mode = false
+  export let inOut = false
+  export let rootMargin = '80px 0px 0px 0px'
+  export let treshold = 0.35
+  export let trOffset = '30px'
+  export let trDelay = '0s'
+  export let trDuration = '0.4s'
   // end props
 
   let helperRef

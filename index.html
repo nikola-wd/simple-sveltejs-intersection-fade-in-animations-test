@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svelte + Vite App</title>
+    <style>
+      .ivtr {
+        transition: transform var(--ivtr-duration) ease-in-out var(--ivtr-delay),
+          opacity var(--ivtr-duration) ease-in-out var(--ivtr-delay);
+      }
+
+      .ivtr:not(.ivtr--custom) {
+        opacity: 0;
+      }
+
+      .ivtr:not(.ivtr--custom).ivtr--btm {
+        transform: translateY(var(--ivtr-offset));
+      }
+
+      .ivtr:not(.ivtr--custom).ivtr--top {
+        transform: translateY(calc(var(--ivtr-offset) * -1));
+      }
+
+      .ivtr:not(.ivtr--custom).ivtr--left {
+        transform: translateX(calc(var(--ivtr-offset) * -1));
+      }
+
+      .ivtr:not(.ivtr--custom).ivtr--right {
+        transform: translateX(var(--ivtr-offset));
+      }
+
+      .ivtr:not(.ivtr--custom).ivtr--btm.inView,
+      .ivtr:not(.ivtr--custom).ivtr--top.inView {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      .ivtr:not(.ivtr--custom).ivtr--left.inView,
+      .ivtr:not(.ivtr--custom).ivtr--right.inView {
+        transform: translateX(0);
+        opacity: 1;
+      }
+
+      /* test custom */
+      .custom-animation {
+        display: inline-flex;
+        transform-origin: center;
+        color: orange;
+      }
+      .custom-animation.inView {
+        color: green;
+        animation: yo 0.2s forwards;
+      }
+
+      @keyframes yo {
+        from {
+          transform: translateY(-200px);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
